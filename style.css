@@ -1,66 +1,82 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #1c1c1c;
-    color: #ffffff;
-  }
-  
-  header {
-    background-color: #353535;
+    line-height: 1.6;
+    background-image: url('code-8779051.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
     padding: 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+h1, h2 {
+    margin-bottom: 10px;
+}
+
+nav {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  h1 {
-    font-size: 2em;
-    margin: 0;
-  }
-  
-  nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-  }
-  
-  nav ul li {
-    margin: 0 10px;
-  }
-  
-  nav ul li a {
-    color: #ffffff;
+    justify-content: space-around;
+}
+
+nav a {
+    color: white;
     text-decoration: none;
-  }
-  
-  section {
+    padding: 5px;
+}
+
+nav a:hover {
+    background-color: white;
+    color: #007BFF;
+}
+
+section {
+    padding: 100px 20px;
+    position: relative;
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.8);
     padding: 20px;
-  }
-  
-  section h2 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
-  }
-  
-  section ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  section ul li {
-    margin-bottom: 10px;
-  }
-  
-  section ul li a {
-    color: #ffffff;
-    text-decoration: none;
-  }
-  
-  footer {
-    background-color: #353535;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cta-button {
+    display: block;
+    width: 100%;
     padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
     text-align: center;
-  }
-  
+    margin-top: 20px;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+}
