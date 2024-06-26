@@ -122,13 +122,13 @@ footer {
         height: 300px;
     }
     #big_image{
-        height: 300px;
+        height: 200px;
     }
 }
 
 @media (max-width: 480px) {
     .photo{
-        height: 300px;
+        height: 200px;
     }
     header {
         padding: 5px;
