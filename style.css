@@ -116,9 +116,15 @@ footer {
     img{
         width: 100%;
     }
+    .photo{
+        height: 300px;
+    }
 }
 
 @media (max-width: 480px) {
+    .photo{
+        height: 300px;
+    }
     header {
         padding: 5px;
     }
