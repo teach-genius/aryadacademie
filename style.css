@@ -91,6 +91,9 @@ footer {
     .ifram{
         width: 100%
     }
+    .iframpdf{
+        width: 100%    
+    }
 
     nav {
         display: inline-block;
@@ -136,6 +139,9 @@ footer {
     .ifram{
         width: 100%
         
+    }
+    .iframpdf{
+        width: 100%    
     }
     section {
         padding: 60px 10px;
